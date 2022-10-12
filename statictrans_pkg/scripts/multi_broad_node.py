@@ -19,6 +19,10 @@ if __name__ == "__main__":
     
     broad_msg_1.child_frame_id = "son1"
     #son1 相对于 world 的偏移量（m）
+
+
+
+
     broad_msg_1.transform.translation.x =  1
     broad_msg_1.transform.translation.y =  1
     broad_msg_1.transform.translation.z =  1
